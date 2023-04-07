@@ -1,0 +1,1 @@
+# nuxt-contentapp-boilerplate
