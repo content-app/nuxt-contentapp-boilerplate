@@ -1,10 +1,6 @@
 <template>
     <div class="the-modules">
-    
-        <div v-for="module in modules" :key="module.sys.contentType.sys.id">
-            <component :is="module.sys.contentType.sys.id" v-bind="module" />    
-        </div>
-        
+        <component v-for="module in modules" :key="module.sys.contentType.sys.id" :is="module.sys.contentType.sys.id" v-bind="module" />    
     </div>
 </template>
 
