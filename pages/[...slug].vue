@@ -1,6 +1,6 @@
 <template>
     <div class="the-page">
-        <DynamicPage v-if="data.articles" :page="data" />
+        <DynamicPage v-if="data && data.articles" :page="data" />
     </div>
 </template>
 
