@@ -58,7 +58,7 @@ export default defineNuxtConfig({
     inject: true,
     useStylesheet: false,
     families: {
-      Inter: [400, 600, 700],
+      
     }
   },
   runtimeConfig: {
