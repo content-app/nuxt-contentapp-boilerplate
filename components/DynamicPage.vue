@@ -1,6 +1,10 @@
 <template>
     <div class="dynamic-page">
-        <TheArticles :articles="page.articles" />
+        <TheArticles :articles="page.articles">
+          <TheArticle>
+          </TheArticle>
+        </TheArticles>
+
     </div>
 </template>
 

@@ -1,6 +1,7 @@
 <template>
     <div class="the-articles">
-        <TheArticle v-for="article in articles" :key="article.id" :article="article" />
+      <TheArticle v-for="article in articles" :key="article.id" :article="article" />
+      <slot></slot>
     </div>
 </template>
 
