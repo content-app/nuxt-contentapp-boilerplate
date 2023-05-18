@@ -1,9 +1,7 @@
 <template>
     <div class="the-page">
       <SeoKit />
-      <TheHeader />
       <DynamicPage v-if="data && data.articles" :page="data" />
-      <TheFooter />
     </div>
 </template>
 
